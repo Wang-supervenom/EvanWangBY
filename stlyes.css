@@ -1,4 +1,4 @@
-/* 全局样式 */
+/* 🌍 全局样式 */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-/* 头部样式 */
+/* 🔹 头部样式 */
 header {
     background: linear-gradient(135deg, #6e8efb, #a777e3);
     color: white;
@@ -35,7 +35,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Hero 区域 */
+/* 🎨 Hero 区域 */
 .hero {
     background: url('https://source.unsplash.com/1600x900/?nature,technology') no-repeat center center/cover;
     color: white;
@@ -56,7 +56,7 @@ nav ul li a {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* 按钮 */
+/* 🔘 按钮 */
 .btn {
     display: inline-block;
     padding: 12px 25px;
@@ -74,7 +74,7 @@ nav ul li a {
     transform: scale(1.1);
 }
 
-/* About Me */
+/* ℹ️ 关于我 */
 .about {
     background: white;
     padding: 50px;
@@ -84,7 +84,7 @@ nav ul li a {
     border-radius: 10px;
 }
 
-/* 页脚 */
+/* 📌 页脚 */
 footer {
     background: #222;
     color: white;
@@ -94,7 +94,7 @@ footer {
     width: 100%;
 }
 
-/* 动画效果 */
+/* 🔄 动画 */
 @keyframes fadeIn {
     from {
         opacity: 0;
