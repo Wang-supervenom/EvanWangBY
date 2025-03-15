@@ -46,31 +46,30 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-
 /* 🎨 Hero 部分优化 */
 .hero {
     position: relative;
     color: white;
-    min-height: 85vh;  /* 让 hero 稍微短一点 */
+    min-height: 75vh;  /* 让 hero 更紧凑 */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     z-index: 1;
-    padding: 40px 20px; /* 进一步减少 padding */
+    padding: 20px 20px; /* 进一步减少 padding */
 }
 
 /* Hero 标题优化 */
 .hero h2 {
-    font-size: 3rem;
+    font-size: 2.8rem; /* 适当缩小标题 */
     margin-bottom: 5px; /* 让标题和内容更紧凑 */
 }
 
 /* Hero 描述文本 */
 .hero p {
-    font-size: 1.2rem;
-    margin-bottom: 15px; /* 让文字更紧凑 */
+    font-size: 1.1rem; /* 适当缩小字体 */
+    margin-bottom: 10px; /* 让文字更紧凑 */
 }
 
 /* 🔘 按钮优化 */
@@ -96,8 +95,8 @@ nav ul li a {
 /* 📌 关于我部分 */
 .about {
     background: white;
-    padding: 25px;
-    margin: 10px auto; /* 让 about 距离 hero 更近 */
+    padding: 20px;
+    margin: -40px auto 0; /* 让 about 靠近 hero */
     max-width: 800px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
