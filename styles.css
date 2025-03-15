@@ -97,7 +97,7 @@ nav ul li a {
 .about {
     background: white;
     padding: 15px;
-    margin: -60px auto 0; /* 让 about 贴近 hero */
+    margin: -100px auto 0; /* 让 about 贴近 hero */
     max-width: 800px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -105,7 +105,7 @@ nav ul li a {
 
 /* 📌 页脚 */
 footer {
-    color: white;
+    color: rgb(16, 55, 70);
     padding: 15px;
     position: fixed;
     bottom: 10px;
