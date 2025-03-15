@@ -46,30 +46,31 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
 /* 🎨 Hero 部分优化 */
 .hero {
     position: relative;
     color: white;
-    min-height: 75vh;  /* 让 hero 更紧凑 */
+    min-height: 65vh;  /* 进一步减少 hero 高度 */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     z-index: 1;
-    padding: 20px 20px; /* 进一步减少 padding */
+    padding: 10px 20px; /* 进一步减少 padding */
 }
 
 /* Hero 标题优化 */
 .hero h2 {
-    font-size: 2.8rem; /* 适当缩小标题 */
+    font-size: 2.5rem; /* 适当缩小标题 */
     margin-bottom: 5px; /* 让标题和内容更紧凑 */
 }
 
 /* Hero 描述文本 */
 .hero p {
-    font-size: 1.1rem; /* 适当缩小字体 */
-    margin-bottom: 10px; /* 让文字更紧凑 */
+    font-size: 1rem; /* 适当缩小字体 */
+    margin-bottom: 8px; /* 让文字更紧凑 */
 }
 
 /* 🔘 按钮优化 */
@@ -84,7 +85,7 @@ nav ul li a {
     font-weight: bold;
     transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .btn:hover {
@@ -95,8 +96,8 @@ nav ul li a {
 /* 📌 关于我部分 */
 .about {
     background: white;
-    padding: 20px;
-    margin: -40px auto 0; /* 让 about 靠近 hero */
+    padding: 15px;
+    margin: -60px auto 0; /* 让 about 贴近 hero */
     max-width: 800px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
