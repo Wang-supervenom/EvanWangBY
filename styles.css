@@ -7,12 +7,22 @@ body {
     text-align: center;
 }
 
+/* 🔹 动态背景 */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
 /* 🔹 头部样式 */
 header {
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    background: rgba(255, 255, 255, 0.1);
     color: white;
     padding: 15px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
 header h1 {
@@ -37,11 +47,10 @@ nav ul li a {
 
 /* 🎨 Hero 区域 */
 .hero {
-    background: url('https://source.unsplash.com/1600x900/?nature,technology') no-repeat center center/cover;
+    position: relative;
     color: white;
     padding: 100px 20px;
-    position: relative;
-    animation: fadeIn 2s ease-in-out;
+    z-index: 1;
 }
 
 .hero h2 {
@@ -60,18 +69,19 @@ nav ul li a {
 .btn {
     display: inline-block;
     padding: 12px 25px;
-    background: #ff6f61;
+    background: linear-gradient(45deg, #ff6f61, #ff3b3f);
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.2rem;
     font-weight: bold;
-    transition: transform 0.3s ease, background 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
-    background: #ff3b3f;
     transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(255, 107, 107, 0.5);
 }
 
 /* ℹ️ 关于我 */
@@ -94,14 +104,38 @@ footer {
     width: 100%;
 }
 
-/* 🔄 动画 */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
+/* 📱 响应式优化 */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
     }
-    to {
-        opacity: 1;
-        transform: translateY(0);
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .about {
+        padding: 30px;
+        margin: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
     }
 }
