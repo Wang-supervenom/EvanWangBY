@@ -106,15 +106,17 @@ nav ul li a {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-
-/* 📌 页脚 */
+/* 📌 页脚优化 */
 footer {
-    background: #222;
+    background: rgba(0, 0, 0, 0); /* 让背景完全透明 */
     color: white;
     padding: 15px;
-    position: relative;
+    position: fixed;  /* 固定在底部 */
     bottom: 0;
     width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    backdrop-filter: blur(10px); /* 添加毛玻璃效果 */
 }
 
 /* 📱 响应式优化 */
